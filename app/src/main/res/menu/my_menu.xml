@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/view_more"
+        android:title="View More"/>
+    <item
+        android:id="@+id/exit"
+        android:title="Exit">
+
+    </item>
+
+</menu>

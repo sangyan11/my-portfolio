@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+  <de.hdodenhof.circleimageview.CircleImageView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:src="@drawable/sangyan11"
+      android:layout_marginTop="50dp"
+      android:layout_marginLeft="100dp"
+      android:layout_marginRight="100dp"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Sangyan Bhagi"
+      android:layout_marginLeft="100dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginRight="100dp"
+      android:textSize="20sp"
+      android:textColor="@color/grey"
+      android:textStyle="bold"
+      android:textAlignment="center"
+      />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="100dp"
+      android:layout_marginRight="100dp"
+      android:layout_marginTop="10dp"
+      android:text="Android Developer"
+      android:textAlignment="center"
+      android:textSize="18sp"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_marginTop="10dp"
+      android:text="I am a person who loves to code and make apps"
+      android:textColor="@color/green"
+
+      android:textSize="25sp"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="100dp"
+      android:layout_marginRight="100dp"
+      android:layout_marginTop="10dp"
+      android:text="Skills"
+      android:textColor="#ff000000"
+      android:textStyle="bold"
+      android:textAlignment="center"
+      android:textSize="18sp"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Java | Kotlin | C++ | Android"
+      android:textAlignment="center"
+      android:textSize="18sp"
+      android:layout_marginTop="10dp"
+      android:textColor="@color/green"/>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="65dp"
+      android:orientation="horizontal"
+      android:layout_marginTop="5dp">
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/instagram"
+        android:layout_margin="15dp"/>
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/linkedin1"
+        android:layout_margin="15dp"/>
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/twitter"
+        android:layout_margin="15dp"/>
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/gmail"
+        android:layout_margin="15dp"/>
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/facebook"
+        android:layout_margin="15dp"/>
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="65dp"
+      android:orientation="horizontal"
+      android:layout_marginTop="5dp">
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/github"
+        android:layout_margin="15dp"
+        android:onClick="gitHub"
+     />
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/leetcode"
+        android:layout_margin="15dp"/>
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/discord"
+        android:layout_margin="15dp"/>
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/youtube"
+        android:layout_margin="15dp"/>
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/share"
+        android:onClick="shareMyProfile"
+        android:layout_margin="15dp"/>
+
+
+
+  </LinearLayout>
+
+
+
+</LinearLayout>
